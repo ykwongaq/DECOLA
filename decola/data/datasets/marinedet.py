@@ -6,8 +6,8 @@ from detectron2.data.datasets.register_coco import register_coco_instances
 
 
 _CUSTOM_SPLITS_COCO = {
-    "marine_train_all": ("./images", "./annotations/class_level_train.json"),
-    "marine_val_all": ("./images", "./annotations/class_level_val.json"),
+    "marine_train_all": ("marine/MarineDet/images", "marine/MarineDet/annotations/class_level_train.json"),
+    "marine_val_all": ("marine/MarineDet/images", "marine/MarineDet/annotations/class_level_val.json"),
 }
 
 for key, (image_root, json_file) in _CUSTOM_SPLITS_COCO.items():
