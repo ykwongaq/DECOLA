@@ -14,6 +14,50 @@ _CUSTOM_SPLITS_COCO = {
         "marine/MarineDet",
         "marine/MarineDet/annotations/class_level_val.json",
     ),
+    "marine_val_seen": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/class_level_val_seen.json",
+    ),
+    "marine_val_unseen": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/class_level_val_unseen.json",
+    ),
+    "marine_pseduo": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/imagenet_lvis_v1_decola_phase1_r50_21k_zeroshot_4x.json",
+    ),
+    "marine_intra_train_all": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/intra_class_train.json",
+    ),
+    "marine_intra_val_all": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/intra_class_val.json",
+    ),
+    "marine_intra_val_seen": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/intra_class_val_seen.json",
+    ),
+    "marine_intra_val_unseen": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/intra_class_val_unseen.json",
+    ),
+    "marine_inter_train_all": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/inter_class_train.json",
+    ),
+    "marine_inter_val_all": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/inter_class_val.json",
+    ),
+    "marine_inter_val_seen": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/inter_class_val_seen.json",
+    ),
+    "marine_inter_val_unseen": (
+        "marine/MarineDet",
+        "marine/MarineDet/annotations/inter_class_val_unseen.json",
+    ),
 }
 
 for key, (image_root, json_file) in _CUSTOM_SPLITS_COCO.items():

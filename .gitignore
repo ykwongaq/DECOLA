@@ -1,4 +1,5 @@
 datasets/
+!decola/data/datasets
 output/
 weights/
 
